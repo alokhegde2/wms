@@ -1,0 +1,100 @@
+.main_container {
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+}
+
+.first_container {
+  height: 60vh;
+  background-color: black;
+  background-image: url("../assets/images/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding-left: 6vw;
+  padding-right: 6vw;
+}
+
+.timer_container_main {
+  margin-top: 3rem;
+}
+
+.timer_container {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+}
+
+.time_string {
+  font-size: 3rem;
+  font-weight: 400;
+  color: #505050;
+  margin: 0;
+}
+
+.time_string_2 {
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: #505050;
+  padding-left: 1rem;
+  margin: 0;
+}
+
+.date_string {
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: #505050;
+  padding-left: 0.5rem;
+}
+
+.location_container {
+  margin-top: 3rem;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+}
+
+.current_location {
+  font-size: 2rem;
+  font-weight: 400;
+  color: #505050;
+  margin: 0;
+}
+
+.country_location {
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: #505050;
+  margin-top: 1.2rem;
+}
+
+.second_container {
+  height: 35.5vh;
+  background-color: #fbf8f5;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+.temp_sun_image {
+  height: 10rem;
+  width: 10rem;
+  padding-left: 2.3rem;
+  padding-right: 2.3rem;
+}
+
+.temp_text {
+  font-size: 3rem;
+  font-weight: 500;
+  color: #505050;
+}
+
+.temp_section{
+  display: flex;
+  flex-direction: row;
+}
