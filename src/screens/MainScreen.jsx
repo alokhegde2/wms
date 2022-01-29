@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from 'react'
 import '../styles/MainScreenStyles.css'
 import Sun from '../assets/images/sun.png'
+import Humidity from '../assets/images/humidity.png'
+import co2 from '../assets/images/co2.png'
 
 function HomeScreen () {
   var [date, setDate] = useState(new Date())
@@ -45,6 +47,36 @@ function HomeScreen () {
           <p className='temp_text'>
             42<sup>&deg;</sup>{' '}
           </p>
+        </div>
+        <div className='right_container'>
+          <div className='humidity_container'>
+            <div className='humidity_image_container'>
+              <img
+                src={Humidity}
+                alt='humidity_image'
+                srcset=''
+                className='right_images'
+              />
+            </div>
+            <p className='right_head_para'>Humidity (%)</p>
+            <hr className='horizontal_line' />
+            <p className='right_value_para'>20.0</p>
+          </div>
+          <div className='co2_container'>
+            <div className='co2_image_container'>
+              <img
+                src={co2}
+                alt='humidity_image'
+                srcset=''
+                className='right_images'
+              />
+            </div>
+            <p className='right_head_para'>
+              CO<sub>2</sub> Levels (pppm)
+            </p>
+            <hr className='horizontal_line' />
+            <p className='right_value_para'>527.04</p>
+          </div>
         </div>
       </div>
     </section>
